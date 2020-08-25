@@ -9,8 +9,8 @@
 }
 
 #main {
-  width: 50vw;
-  height: 325px;
+  width: 400px;
+  height: 400px;
   font-family: Helvetica, sans-serif;
 
   position: absolute;
@@ -33,6 +33,7 @@
   display: flex;
   flex-direction: column;
   align-content: center;
+  justify-content: center;
 }
 
 #main:before {
@@ -53,16 +54,10 @@
   margin-top: 0;
 }
 
-#details p {
-  font-size: 1.15rem;
-  margin: .5rem;
-}
-
 .social-links {
   font-size: 3rem;
-  margin-top: 1.5rem;
   text-align: center;
-  margin-top: auto;
+  margin-top: 0;
 }
 .social-links a {
   color: inherit;
@@ -99,28 +94,14 @@
 /* Brandico End */
 
 /* Responsive */
-@media screen and (max-width: 900px) {
-  #main {
-    width: 70vw;
-  }
-}
-
 @media screen and (max-width: 520px) {
   #main {
     height: 280px;
-    width: 90vw;
+    width: 280px;
   }
 
   #title {
     font-size: 2.2rem;
-  }
-
-  #details {
-    margin: auto 0;
-  }
-
-  #details p {
-    font-size: 1rem;
   }
 
   .social-links {
